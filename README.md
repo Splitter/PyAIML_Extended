@@ -46,7 +46,18 @@ And seeing that the \<plugin\> tag is similar in function to the \<template\> yo
 
 </aiml>
 ```
-
+Or...
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>Weather forecast for *</pattern>
+        <plugin name="weather">
+            <star/>
+        </plugin>
+    </category>
+</aiml>
+```
 
 ### Example Python Plugin...
 (SideNote: Not all plugins need python code, without it the plugin just adds a new AIML file to learn)
