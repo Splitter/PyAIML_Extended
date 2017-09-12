@@ -1,5 +1,5 @@
 # PyAIML_Extended
-## [PyAIML](https://pypi.python.org/pypi/PyAIML) with added \<plugin\> tag to implement simple plugin system.
+## [PyAIML](https://pypi.python.org/pypi/PyAIML) with added \<plugin\> tag to implement simple plugin system, as well as added support for the caret(^) tag(0 or more wildcard match).
 
 The new \<plugin\> tag functions almost exactly as the \<template\> tag with the added ability for response to be sent to a custom python plugin before final response is returned.
 
