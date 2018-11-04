@@ -408,7 +408,7 @@ class AimlHandler(ContentHandler):
 			self._whitespaceBehaviorStack.pop()
 			
 		elif name == "plugin":
-			# </template> tags are only allowed in the InsideTemplate state.
+			# </plugin> tags are only allowed in the InsidePlugin state.
 			if self._state != self._STATE_InsidePlugin:
 				raise AimlParserError, "Unexpected </plugin> tag "+self._location()
 			self._state = self._STATE_AfterTemplate
